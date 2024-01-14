@@ -1,8 +1,7 @@
 import styles from "../styles/Home.module.css";
 
-export default function Headline(props) {
-  console.log(props.title);
-  
+export function Headline(props) {
+ 
   return (
     <div>
       <h1 className={styles.title}>{props.page} page</h1>
